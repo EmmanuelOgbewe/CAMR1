@@ -18,16 +18,6 @@ class CameraHelper: UIViewController,AVCaptureVideoDataOutputSampleBufferDelegat
     let topView = UIView()
     let overlay = UIView()
     
-    var visualEffectView:UIVisualEffectView!
-    
-    let cardHeight:CGFloat = 600
-    let cardHandleAreaHeight:CGFloat = 65
-    
-    var cardVisible = false
-    
-    var runningAnimations = [UIViewPropertyAnimator]()
-    var animationProgressWhenInterrupted:CGFloat = 0
-    
     override func viewDidAppear(_ animated: Bool) {
         super.viewDidAppear(true)
     }
