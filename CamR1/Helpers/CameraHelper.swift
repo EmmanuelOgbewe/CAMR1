@@ -36,7 +36,6 @@ class CameraHelper: UIViewController,AVCaptureVideoDataOutputSampleBufferDelegat
         vc.view.addSubview(topView)
         topView.layer.addSublayer(previewLayer)
         previewLayer.frame = topView.frame
-//        searchView.frame =  vc.view.frame
         overlay.frame = vc.view.frame
         view.addSubview(overlay)
 //   
