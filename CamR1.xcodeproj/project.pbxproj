@@ -8,22 +8,36 @@
 
 /* Begin PBXBuildFile section */
 		B54BADDB21B0E10000896B3C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B54BADDA21B0E10000896B3C /* AppDelegate.swift */; };
-		B54BADDD21B0E10000896B3C /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B54BADDC21B0E10000896B3C /* ViewController.swift */; };
 		B54BADE021B0E10000896B3C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B54BADDE21B0E10000896B3C /* Main.storyboard */; };
 		B54BADE321B0E10000896B3C /* CamR1.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = B54BADE121B0E10000896B3C /* CamR1.xcdatamodeld */; };
 		B54BADE521B0E10200896B3C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B54BADE421B0E10200896B3C /* Assets.xcassets */; };
 		B54BADE821B0E10200896B3C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B54BADE621B0E10200896B3C /* LaunchScreen.storyboard */; };
+		B54BADF321B0E21100896B3C /* CameraVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = B54BADF221B0E21100896B3C /* CameraVC.swift */; };
+		B54BADF821B18DA000896B3C /* Resnet50.mlmodel in Sources */ = {isa = PBXBuildFile; fileRef = B54BADF721B18DA000896B3C /* Resnet50.mlmodel */; };
+		B54BADFB21B1935C00896B3C /* ResultsVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = B54BADFA21B1935C00896B3C /* ResultsVC.swift */; };
+		B54BADFD21B19D0D00896B3C /* CameraHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = B54BADFC21B19D0D00896B3C /* CameraHelper.swift */; };
+		B54BADFF21B1A34500896B3C /* ResultsHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = B54BADFE21B1A34500896B3C /* ResultsHelper.swift */; };
+		B54BAE0121B5CC8D00896B3C /* StartVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = B54BAE0021B5CC8D00896B3C /* StartVC.swift */; };
+		B54BAE0521B6FB3F00896B3C /* CardViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = B54BAE0421B6FB3F00896B3C /* CardViewController.xib */; };
+		B54BAE0A21B9802000896B3C /* ColorHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = B54BAE0921B9802000896B3C /* ColorHelper.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		B54BADD721B0E10000896B3C /* CamR1.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CamR1.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B54BADDA21B0E10000896B3C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		B54BADDC21B0E10000896B3C /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		B54BADDF21B0E10000896B3C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		B54BADE221B0E10000896B3C /* CamR1.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = CamR1.xcdatamodel; sourceTree = "<group>"; };
 		B54BADE421B0E10200896B3C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		B54BADE721B0E10200896B3C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		B54BADE921B0E10200896B3C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B54BADF221B0E21100896B3C /* CameraVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CameraVC.swift; sourceTree = "<group>"; };
+		B54BADF721B18DA000896B3C /* Resnet50.mlmodel */ = {isa = PBXFileReference; lastKnownFileType = file.mlmodel; name = Resnet50.mlmodel; path = ../../../../../Downloads/Resnet50.mlmodel; sourceTree = "<group>"; };
+		B54BADFA21B1935C00896B3C /* ResultsVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResultsVC.swift; sourceTree = "<group>"; };
+		B54BADFC21B19D0D00896B3C /* CameraHelper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CameraHelper.swift; sourceTree = "<group>"; };
+		B54BADFE21B1A34500896B3C /* ResultsHelper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResultsHelper.swift; sourceTree = "<group>"; };
+		B54BAE0021B5CC8D00896B3C /* StartVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StartVC.swift; sourceTree = "<group>"; };
+		B54BAE0421B6FB3F00896B3C /* CardViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = CardViewController.xib; path = "../../../Downloads/InteractiveCardViewAnimation-master/CardViewAnimation/CardViewController.xib"; sourceTree = "<group>"; };
+		B54BAE0921B9802000896B3C /* ColorHelper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorHelper.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -40,6 +54,7 @@
 		B54BADCE21B0E10000896B3C = {
 			isa = PBXGroup;
 			children = (
+				B54BAE0421B6FB3F00896B3C /* CardViewController.xib */,
 				B54BADD921B0E10000896B3C /* CamR1 */,
 				B54BADD821B0E10000896B3C /* Products */,
 			);
@@ -57,7 +72,9 @@
 			isa = PBXGroup;
 			children = (
 				B54BADDA21B0E10000896B3C /* AppDelegate.swift */,
-				B54BADDC21B0E10000896B3C /* ViewController.swift */,
+				B54BADF621B18BFE00896B3C /* MLModel */,
+				B54BADF921B1921000896B3C /* Helpers */,
+				B54BADEF21B0E11400896B3C /* ViewControllers */,
 				B54BADDE21B0E10000896B3C /* Main.storyboard */,
 				B54BADE421B0E10200896B3C /* Assets.xcassets */,
 				B54BADE621B0E10200896B3C /* LaunchScreen.storyboard */,
@@ -65,6 +82,34 @@
 				B54BADE121B0E10000896B3C /* CamR1.xcdatamodeld */,
 			);
 			path = CamR1;
+			sourceTree = "<group>";
+		};
+		B54BADEF21B0E11400896B3C /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				B54BADF221B0E21100896B3C /* CameraVC.swift */,
+				B54BADFA21B1935C00896B3C /* ResultsVC.swift */,
+				B54BAE0021B5CC8D00896B3C /* StartVC.swift */,
+			);
+			path = ViewControllers;
+			sourceTree = "<group>";
+		};
+		B54BADF621B18BFE00896B3C /* MLModel */ = {
+			isa = PBXGroup;
+			children = (
+				B54BADF721B18DA000896B3C /* Resnet50.mlmodel */,
+			);
+			path = MLModel;
+			sourceTree = "<group>";
+		};
+		B54BADF921B1921000896B3C /* Helpers */ = {
+			isa = PBXGroup;
+			children = (
+				B54BADFC21B19D0D00896B3C /* CameraHelper.swift */,
+				B54BADFE21B1A34500896B3C /* ResultsHelper.swift */,
+				B54BAE0921B9802000896B3C /* ColorHelper.swift */,
+			);
+			path = Helpers;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -125,6 +170,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B54BAE0521B6FB3F00896B3C /* CardViewController.xib in Resources */,
 				B54BADE821B0E10200896B3C /* LaunchScreen.storyboard in Resources */,
 				B54BADE521B0E10200896B3C /* Assets.xcassets in Resources */,
 				B54BADE021B0E10000896B3C /* Main.storyboard in Resources */,
@@ -138,9 +184,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B54BADFF21B1A34500896B3C /* ResultsHelper.swift in Sources */,
+				B54BADF821B18DA000896B3C /* Resnet50.mlmodel in Sources */,
+				B54BADFB21B1935C00896B3C /* ResultsVC.swift in Sources */,
 				B54BADE321B0E10000896B3C /* CamR1.xcdatamodeld in Sources */,
-				B54BADDD21B0E10000896B3C /* ViewController.swift in Sources */,
 				B54BADDB21B0E10000896B3C /* AppDelegate.swift in Sources */,
+				B54BADFD21B19D0D00896B3C /* CameraHelper.swift in Sources */,
+				B54BAE0A21B9802000896B3C /* ColorHelper.swift in Sources */,
+				B54BADF321B0E21100896B3C /* CameraVC.swift in Sources */,
+				B54BAE0121B5CC8D00896B3C /* StartVC.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
